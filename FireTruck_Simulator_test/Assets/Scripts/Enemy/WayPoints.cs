@@ -23,6 +23,7 @@ namespace FireTruck_Sim
         {
             navMeshAgent.SetDestination(GetRandomPth());
             StartFuelUpdateRoutine();
+            UIManager.Instance.EnemyCarRemaining++;
         }
         private void Update()
         {

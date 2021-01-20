@@ -15,10 +15,10 @@ namespace FireTruck_Sim
         public Text animalsSaved_txt;
         int pauseTime = 0;
 
-        int enemyCarRemaining = 5;
+        int enemyCarRemaining;
         public Text enemyCarRemaining_txt;
 
-        int fireRemain = 5;
+        int fireRemain;
         public Text FireRemain_txt;
 
         [SerializeField] GameObject GameScreenIcon;
@@ -44,7 +44,6 @@ namespace FireTruck_Sim
         IEnumerator FuelUpdaterRoutine()
         {
             truckFuel = 100;
-            enemyCarRemaining = 5;
             animalsSaved = 0;
             while (true)
             {
