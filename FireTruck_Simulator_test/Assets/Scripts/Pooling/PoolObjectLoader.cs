@@ -6,7 +6,7 @@ namespace FireTruck_Sim
 {
     public enum PoolObjectType
     {
-    Road,Trees,
+    Road,Trees,Fuel,
     }
     public class PoolObjectLoader : MonoBehaviour
     {
@@ -20,6 +20,9 @@ namespace FireTruck_Sim
                     break;
                 case PoolObjectType.Trees:
                     Obj = Instantiate(Resources.Load("Trees_fab", typeof(GameObject)) as GameObject);
+                    break;
+                case PoolObjectType.Fuel:
+                    Obj = Instantiate(Resources.Load("Fuel_fab", typeof(GameObject)) as GameObject);
                     break;
             }
             return Obj.GetComponent<PoolObject>();

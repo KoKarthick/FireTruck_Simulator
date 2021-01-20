@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5983826659012168825}
   - component: {fileID: 8365701794250516467}
+  - component: {fileID: 6154218549523682416}
   m_Layer: 0
   m_Name: Tress_Pack
   m_TagString: Untagged
@@ -51,6 +52,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolObjectType: 1
+--- !u!208 &6154218549523682416
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5983826659012168830}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.965, y: 1.5, z: 9.055}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 1.2, y: -2.34, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &5983826659074338855
 PrefabInstance:
   m_ObjectHideFlags: 0
