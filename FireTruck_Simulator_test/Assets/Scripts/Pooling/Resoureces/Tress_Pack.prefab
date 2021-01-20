@@ -51,7 +51,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolObjectType: 1
-  ScheduledTime: 0
 --- !u!1001 &5983826659074338855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,9 +102,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -165,9 +180,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -227,9 +258,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -289,9 +336,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -351,9 +414,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -413,9 +492,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
@@ -475,9 +570,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1933420202882657090, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
       propertyPath: m_Name
       value: Trees
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571791078191367265, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609950869820759378, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844023764105734644, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fec74a6f90b8a1c4cbcd2d299d150b18, type: 3}
