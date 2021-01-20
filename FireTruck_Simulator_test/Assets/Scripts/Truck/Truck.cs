@@ -14,7 +14,6 @@ namespace FireTruck_Sim
         Vector2 dir;
 
         public float Speed { get => speed; set => speed = value; }
-
         private void Awake()
         {
             inputTouch = FindObjectOfType<InputTouch>().GetComponent<InputTouch>();

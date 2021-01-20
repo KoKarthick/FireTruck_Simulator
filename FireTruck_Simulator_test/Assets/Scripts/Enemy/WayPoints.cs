@@ -11,6 +11,8 @@ namespace FireTruck_Sim
         [SerializeField] GameObject[] _waypoints = null;
         Truck truck;
 
+        IEnumerator FireUpdateRoutine;
+        bool isStopped;
         private void Awake()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -20,6 +22,7 @@ namespace FireTruck_Sim
         private void Start()
         {
             navMeshAgent.SetDestination(GetRandomPth());
+            StartFuelUpdateRoutine();
         }
         private void Update()
         {
@@ -38,9 +41,38 @@ namespace FireTruck_Sim
         {
             if (other.gameObject==truck.gameObject)
             {
-                Destroy(this.gameObject);
+                isStopped = true;
+                UIManager.Instance.EnemyCarRemaining--;
+                Vector3 temppos = this.transform.position;
+                Vector3 pos = new Vector3(temppos.x + Random.Range(-4, 4), 0, temppos.z + Random.Range(-4, 4));
+                LevelManager.Instance.SpawnFuel(pos);
                 truck.Speed += 0.5f;
+                Destroy(this.gameObject);
             }
+        }
+
+        void StartFuelUpdateRoutine()
+        {
+            if (FireUpdateRoutine != null)
+            {
+                StopCoroutine(FireUpdateRoutine);
+            }
+            FireUpdateRoutine = FuelUpdaterRoutine();
+            StartCoroutine(FireUpdateRoutine);
+        }
+        IEnumerator FuelUpdaterRoutine()
+        {
+            while (!isStopped)
+            {
+                SpawnFuel();
+                yield return new WaitForSeconds(5f);
+            }
+        }
+        private void SpawnFuel()
+        {
+            GameObject obj = PoolManager.Instance.GetObject(PoolObjectType.Fire);
+            obj.transform.position = this.transform.position;
+            obj.SetActive(true);
         }
     }
 }
